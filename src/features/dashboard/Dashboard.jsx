@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../components/footer/Footer'
+import Navigation from '../components/nav/Navigation'
+import Routers from '../routers/Routers'
 
 function Dashboard() {
-  return (
-    <div>
-      <h1>Dashboard</h1>
-        {/* nav */}
-        {/* routers */}
-        {/* footer */}
+  return (<div className='dashboard'>
+        <Navigation/>
+        <Routers/>
+        <Footer/>
     </div>
   )
 }
